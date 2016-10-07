@@ -1,0 +1,33 @@
+.custom-container {
+    height: 100%;
+    line-height: 30;
+}
+
+.custom-list {
+
+}
+
+.custom-list > span {
+    color: white;
+    font-weight: 200;
+}
+
+.custom-trait-color {
+    color: #f7931d;
+}
+
+.nexus-image {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.center-verticle {
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    position: absolute;
+}

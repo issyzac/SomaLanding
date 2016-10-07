@@ -1,0 +1,846 @@
+
+
+@media (min-width: 60em) {
+    .column {
+        float: left;
+        margin-left: 2.5%
+    }
+
+    .column.right {
+        float: right
+    }
+
+    .column:first-child {
+        margin-left: 0
+    }
+
+    .column.full {
+        width: 100%
+    }
+
+    .column.two-thirds {
+        width: 65.3333333333%
+    }
+
+    .column.two-thirds.fullcol {
+        width: 67.8%;
+        margin: 0
+    }
+
+    .column.half {
+        width: 48.75%
+    }
+
+    .column.half.fullcol {
+        width: 50%;
+        margin: 0
+    }
+
+    .column.one-third {
+        width: 31.6666666666666%
+    }
+
+    .column.one-third.fullcol {
+        width: 32.2%;
+        margin: 0
+    }
+
+    .column.one-fourth {
+        width: 23.125%
+    }
+
+    .column.one-fourth.fullcol {
+        width: 25%;
+        margin: 0
+    }
+
+    .column.three-fourths {
+        width: 73.75%
+    }
+
+    .column.three-fourths.fullcol {
+        width: 75%;
+        margin: 0
+    }
+
+    .column.one-fifth {
+        width: 18%
+    }
+
+    .column.one-fifth.fullcol {
+        width: 20%;
+        margin: 0
+    }
+
+    .column.two-fifths {
+        width: 38.5%
+    }
+
+    .column.two-fifths.fullcol {
+        width: 40%;
+        margin: 0
+    }
+
+    .column.three-fifths {
+        width: 59%
+    }
+
+    .column.three-fifths.fullcol {
+        width: 60%;
+        margin: 0
+    }
+
+    .column.four-fifths {
+        width: 79.5%
+    }
+
+    .column.four-fifths.fullcol {
+        width: 80%;
+        margin: 0
+    }
+}
+
+@font-face {
+    font-family: "proxima-nova";
+    src: url("../fonts/proxima-nova/ProximaNovaT-Thin.eot%3Fv=2");
+    src: url("../fonts/proxima-nova/ProximaNovaT-Thin.eot%3F") format("embedded-opentype"), url("../fonts/proxima-nova/ProximaNovaT-Thin.woff%3Fv=2") format("woff"), url("../fonts/proxima-nova/ProximaNovaT-Thin.ttf%3Fv=2") format("truetype"), url("../fonts/proxima-nova/ProximaNovaT-Thin.svg") format("svg");
+    font-style: normal;
+    font-weight: 200
+}
+
+@font-face {
+    font-family: "proxima-nova";
+    src: url("../fonts/proxima-nova/ProximaNova-Light.eot%3Fv=2");
+    src: url("../fonts/proxima-nova/ProximaNova-Light.eot%3F") format("embedded-opentype"), url("../fonts/proxima-nova/ProximaNova-Light.woff%3Fv=2") format("woff"), url("../fonts/proxima-nova/ProximaNova-Light.ttf%3Fv=2") format("truetype"), url("../fonts/proxima-nova/ProximaNova-Light.svg") format("svg");
+    font-style: normal;
+    font-weight: 300
+}
+
+@font-face {
+    font-family: "proxima-nova";
+    src: url("../fonts/proxima-nova/ProximaNova-Regular.eot%3Fv=2");
+    src: url("../fonts/proxima-nova/ProximaNova-Regular.eot%3F") format("embedded-opentype"), url("../fonts/proxima-nova/ProximaNova-Regular.woff%3Fv=2") format("woff"), url("../fonts/proxima-nova/ProximaNova-Regular.ttf%3Fv=2") format("truetype"), url("../fonts/proxima-nova/ProximaNova-Regular.svg") format("svg");
+    font-style: normal;
+    font-weight: 400
+}
+
+@font-face {
+    font-family: "proxima-nova";
+    src: url("../fonts/proxima-nova/ProximaNova-Semibold.eot%3Fv=2");
+    src: url("../fonts/proxima-nova/ProximaNova-Semibold.eot%3F") format("embedded-opentype"), url("../fonts/proxima-nova/ProximaNova-Semibold.woff%3Fv=2") format("woff"), url("../fonts/proxima-nova/ProximaNova-Semibold.ttf%3Fv=2") format("truetype"), url("../fonts/proxima-nova/ProximaNova-Semibold.svg") format("svg");
+    font-style: normal;
+    font-weight: 500
+}
+
+@font-face {
+    font-family: "proxima-nova";
+    src: url("../fonts/proxima-nova/ProximaNova-Bold.eot%3Fv=2");
+    src: url("../fonts/proxima-nova/ProximaNova-Bold.eot%3F") format("embedded-opentype"), url("../fonts/proxima-nova/ProximaNova-Bold.woff%3Fv=2") format("woff"), url("../fonts/proxima-nova/ProximaNova-Bold.ttf%3Fv=2") format("truetype"), url("../fonts/proxima-nova/ProximaNova-Bold.svg") format("svg");
+    font-style: normal;
+    font-weight: 700
+}
+
+.proxima-nova, h1, h2, h5, .button, .careers-cv.page-section .form-container .input-row label, .careers-cv.page-section .form-container .input-row input, .careers-cv.page-section .form-container .input-row .errormessage, .careers-cv.page-section .form-container .text-row .placeholder, .careers-cv.page-section .form-container .text-row textarea, .careers-cv.page-section .form-container .button-row .submit-button, .file, .file .cancel-btn, .careers-options.page-section .career-column .hover-info .fom-button, .contact-header.page-section .links a, .tiny-text span, .form-section.page-section form .input-row label, .form-section.page-section form .input-row input, .form-section.page-section form .input-row .errormessage, .form-section.page-section form .text-row .placeholder, .form-section.page-section form .text-row textarea, .form-section.page-section form .text-row .errormessage, .form-section.page-section form .button-row .submit-button, .page-section.homepage-header .fullscreen-section .secondary-text h2 .text, .main-navigation-button .text, .navigation-buttons .scroll-text, .navigation .li-holder li, .splashscreen .loading-icon span.text, .untilising-wso2.page-section .icons-container .icon h4, body.fullscreen .what-we-do-section.page-section .bg-video svg text {
+    font-family: 'proxima-nova', sans-serif
+}
+
+@font-face {
+    font-family: 'CanvasText';
+    src: url("../fonts/proxima-nova/ProximaNova-Bold.ttf")
+}
+
+@font-face {
+    font-family: "Playfair Display";
+    src: url("../fonts/playfair-display/PlayfairDisplay-Black.eot%3Fv=2");
+    src: url("../fonts/playfair-display/PlayfairDisplay-Black.eot%3F") format("embedded-opentype"), url("../fonts/playfair-display/PlayfairDisplay-Black.woff%3Fv=2") format("woff"), url("../fonts/playfair-display/PlayfairDisplay-Black.ttf%3Fv=2") format("truetype"), url("../fonts/playfair-display/PlayfairDisplay-Black.svg") format("svg");
+    font-style: normal;
+    font-weight: 900
+}
+
+@font-face {
+    font-family: "Playfair Display";
+    src: url("../fonts/playfair-display/PlayfairDisplay-BoldItalic.eot%3Fv=2");
+    src: url("../fonts/playfair-display/PlayfairDisplay-BoldItalic.eot%3F") format("embedded-opentype"), url("../fonts/playfair-display/PlayfairDisplay-BoldItalic.woff%3Fv=2") format("woff"), url("../fonts/playfair-display/PlayfairDisplay-BoldItalic.ttf%3Fv=2") format("truetype"), url("../fonts/playfair-display/PlayfairDisplay-BoldItalic.svg") format("svg");
+    font-style: italic;
+    font-weight: bold
+}
+
+@font-face {
+    font-family: "Playfair Display";
+    src: url("../fonts/playfair-display/PlayfairDisplay-Bold.eot%3Fv=2");
+    src: url("../fonts/playfair-display/PlayfairDisplay-Bold.eot%3F") format("embedded-opentype"), url("../fonts/playfair-display/PlayfairDisplay-Bold.woff%3Fv=2") format("woff"), url("../fonts/playfair-display/PlayfairDisplay-Bold.ttf%3Fv=2") format("truetype"), url("../fonts/playfair-display/PlayfairDisplay-Bold.svg") format("svg");
+    font-style: normal;
+    font-weight: bold
+}
+
+@font-face {
+    font-family: "Playfair Display";
+    src: url("../fonts/playfair-display/PlayfairDisplay-BlackItalic.eot%3Fv=2");
+    src: url("../fonts/playfair-display/PlayfairDisplay-BlackItalic.eot%3F") format("embedded-opentype"), url("../fonts/playfair-display/PlayfairDisplay-BlackItalic.woff%3Fv=2") format("woff"), url("../fonts/playfair-display/PlayfairDisplay-BlackItalic.ttf%3Fv=2") format("truetype"), url("../fonts/playfair-display/PlayfairDisplay-BlackItalic.svg") format("svg");
+    font-style: italic;
+    font-weight: 900
+}
+
+@font-face {
+    font-family: "Playfair Display";
+    src: url("../fonts/playfair-display/PlayfairDisplay-Italic.eot%3Fv=2");
+    src: url("../fonts/playfair-display/PlayfairDisplay-Italic.eot%3F") format("embedded-opentype"), url("../fonts/playfair-display/PlayfairDisplay-Italic.woff%3Fv=2") format("woff"), url("../fonts/playfair-display/PlayfairDisplay-Italic.ttf%3Fv=2") format("truetype"), url("../fonts/playfair-display/PlayfairDisplay-Italic.svg") format("svg");
+    font-style: italic;
+    font-weight: normal
+}
+
+@font-face {
+    font-family: "Playfair Display";
+    src: url("../fonts/playfair-display/PlayfairDisplay-Regular.eot%3Fv=2");
+    src: url("../fonts/playfair-display/PlayfairDisplay-Regular.eot%3F") format("embedded-opentype"), url("../fonts/playfair-display/PlayfairDisplay-Regular.woff%3Fv=2") format("woff"), url("../fonts/playfair-display/PlayfairDisplay-Regular.ttf%3Fv=2") format("truetype"), url("../fonts/playfair-display/PlayfairDisplay-Regular.svg") format("svg");
+    font-style: normal;
+    font-weight: normal
+}
+
+.playfair-display, p, .about-profiles.page-section .profile .top-text h2, .about-profiles.page-section .profile .main-information .title h2, .about-profile-holder .main-information h2, .careers-header.page-section .inner-content h2, .contact-header.page-section h3, .dragable-headers .header-section::before, footer.page-section .inner-content ul li, .footer .inner-content ul li, .page-section.homepage-header .fullscreen-section .secondary-text h2, .map-section.page-section .address-popup p, .why-chakray.page-section .inner-content a {
+    font-family: 'Playfair Display', sans-serif
+}
+
+.playfair-display em, p em, .about-profiles.page-section .profile .top-text h2 em, .about-profiles.page-section .profile .main-information .title h2 em, .about-profile-holder .main-information h2 em, .careers-header.page-section .inner-content h2 em, .contact-header.page-section h3 em, .dragable-headers .header-section::before em, footer.page-section .inner-content ul li em, .footer .inner-content ul li em, .page-section.homepage-header .fullscreen-section .secondary-text h2 em, .map-section.page-section .address-popup p em, .why-chakray.page-section .inner-content a em {
+    font-style: italic
+}
+
+h1 {
+    font-weight: 700;
+    text-transform: uppercase
+}
+
+h1 em {
+    font-style: italic
+}
+
+h1 strong {
+    font-weight: bold
+}
+
+h2 {
+    font-weight: 700;
+    text-transform: uppercase
+}
+
+h2 em {
+    font-style: italic
+}
+
+h2 strong {
+    font-weight: bold
+}
+
+body {
+    width: 100%;
+    overflow-x: hidden
+}
+
+.page-section.homepage-header {
+    background: #000000;
+    display: block;
+    width: 100%;
+    height: 150vw;
+    position: relative
+}
+
+@media (min-width: 60em) {
+    .page-section.homepage-header {
+        height: 56.3vw
+    }
+}
+
+.page-section.homepage-header .fullscreen-section {
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    padding: 0
+}
+
+@media (min-width: 60em) {
+    .page-section.homepage-header .fullscreen-section {
+        border: solid #232323;
+    }
+}
+
+.page-section.homepage-header .fullscreen-section .secondary-text {
+    top: auto;
+    right: auto;
+    bottom: auto;
+    left: 50%;
+    position: absolute;
+    -moz-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    top: 81.25vw;
+    text-align: center;
+    width: 100%;
+    max-width: 230px;
+    max-width: 14.375rem
+}
+
+@media (min-width: 47.5em) {
+    .page-section.homepage-header .fullscreen-section .secondary-text {
+        max-width: none;
+        left: 0;
+        -moz-transform: none;
+        -o-transform: none;
+        -ms-transform: none;
+        -webkit-transform: none;
+        transform: none
+    }
+}
+
+@media (min-width: 60em) {
+    .page-section.homepage-header .fullscreen-section .secondary-text {
+        top: 35vw
+    }
+}
+
+@media (min-width: 100em) {
+    .page-section.homepage-header .fullscreen-section .secondary-text {
+        top: 35vw
+    }
+}
+
+.page-section.homepage-header .fullscreen-section .secondary-text h1 {
+    display: none
+}
+
+.page-section.homepage-header .fullscreen-section .secondary-text h2 {
+    display: inline-block;
+    text-align: center;
+    position: relative;
+    color: #eeeeee;
+    text-transform: none;
+    font-size: 16px;
+    font-size: 1rem;
+    line-height: 22px;
+    line-height: 1.375rem;
+    position: relative;
+    font-weight: 400
+}
+
+
+@media (min-width: 60em) {
+    .page-section.homepage-header .fullscreen-section .secondary-text h2 {
+        font-size: 32px;
+        font-size: 2rem;
+        line-height: 32px;
+        line-height: 2rem
+    }
+
+    .page-section.homepage-header .fullscreen-section .secondary-text h2::before, .page-section.homepage-header .fullscreen-section .secondary-text h2::after {
+        width: 20px;
+        width: 1.25rem;
+        height: 2px;
+        height: 0.125rem
+    }
+}
+
+@media (min-width: 60em) and (min-aspect-ratio: 5 / 4) and (max-aspect-ratio: 20 / 9) {
+    body.fullscreen .page-section.homepage-header .fullscreen-section .secondary-text h2 {
+        font-size: 1.875vw;
+        line-height: 1.875vw
+    }
+
+    body.fullscreen .page-section.homepage-header .fullscreen-section .secondary-text h2::before, body.fullscreen .page-section.homepage-header .fullscreen-section .secondary-text h2::after {
+        width: 1.25vw;
+        height: 0.125vw
+    }
+}
+
+@media (min-width: 100em) {
+    .page-section.homepage-header .fullscreen-section .secondary-text h2 {
+        font-size: 1.875vw;
+        line-height: 1.875vw
+    }
+
+    .page-section.homepage-header .fullscreen-section .secondary-text h2::before, .page-section.homepage-header .fullscreen-section .secondary-text h2::after {
+        width: 1.25vw;
+        height: 0.125vw
+    }
+}
+
+.page-section.homepage-header .fullscreen-section .secondary-text h2 .wso2-logo {
+    top: 100%;
+    right: auto;
+    bottom: auto;
+    left: 50%;
+    position: absolute;
+    width: 183px;
+    width: 11.4375rem;
+    height: 31px;
+    height: 1.9375rem;
+    margin-top: 6px;
+    margin-top: 0.375rem;
+    -moz-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%)
+}
+
+@media (min-width: 47.5em) {
+    .page-section.homepage-header .fullscreen-section .secondary-text h2 .wso2-logo {
+        width: 257px;
+        width: 16.0625rem;
+        height: 46px;
+        height: 2.875rem;
+        margin-top: 20px;
+        margin-top: 1.25rem
+    }
+}
+
+@media (min-width: 60em) and (min-aspect-ratio: 5 / 4) and (max-aspect-ratio: 20 / 9) {
+    body.fullscreen .page-section.homepage-header .fullscreen-section .secondary-text h2 .wso2-logo {
+        width: 16.0625vw;
+        height: 2.875vw;
+        margin-top: 1.5625vw
+    }
+}
+
+.page-section.homepage-header .fullscreen-section .secondary-text h2 .logo-in {
+    top: 50%;
+    right: auto;
+    bottom: auto;
+    left: 0;
+    position: absolute;
+    -moz-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    width: 75px;
+    width: 4.6875rem;
+    height: 30px;
+    height: 1.875rem
+}
+
+@media (min-width: 47.5em) {
+    .page-section.homepage-header .fullscreen-section .secondary-text h2 .logo-in {
+        width: 113px;
+        width: 7.0625rem;
+        height: 45px;
+        height: 2.8125rem
+    }
+}
+
+@media (min-width: 60em) and (min-aspect-ratio: 5 / 4) and (max-aspect-ratio: 20 / 9) {
+    body.fullscreen .page-section.homepage-header .fullscreen-section .secondary-text h2 .logo-in {
+        width: 7.0625vw;
+        height: 2.8125vw
+    }
+}
+
+.page-section.homepage-header .fullscreen-section .secondary-text h2 .logo-in svg {
+    top: 0;
+    right: auto;
+    bottom: auto;
+    left: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%
+}
+
+.page-section.homepage-header .fullscreen-section .secondary-text h2 .seperator {
+    top: 50%;
+    right: auto;
+    bottom: auto;
+    left: 50%;
+    position: absolute;
+    -moz-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    width: 1px;
+    width: 0.0625rem;
+    height: 28px;
+    height: 1.75rem;
+    background: #fff;
+    opacity: 0.2
+}
+
+@media (min-width: 47.5em) {
+    .page-section.homepage-header .fullscreen-section .secondary-text h2 .seperator {
+        width: 2px;
+        width: 0.125rem;
+        height: 44px;
+        height: 2.75rem;
+        margin-left: 14px;
+        margin-left: 0.875rem
+    }
+}
+
+@media (min-width: 60em) and (min-aspect-ratio: 5 / 4) and (max-aspect-ratio: 20 / 9) {
+    body.fullscreen .page-section.homepage-header .fullscreen-section .secondary-text h2 .seperator {
+        width: 0.125vw;
+        height: 2.75vw;
+        margin-left: 0.875vw
+    }
+}
+
+.page-section.homepage-header .fullscreen-section .secondary-text h2 .text {
+    top: 50%;
+    right: 0;
+    bottom: auto;
+    left: auto;
+    position: absolute;
+    -moz-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    color: #eeeeee;
+    text-align: left;
+    text-transform: uppercase;
+    font-weight: 400;
+    margin-right: 18px;
+    margin-right: 1.125rem;
+    font-size: 14px;
+    font-size: 0.875rem;
+    line-height: 16px;
+    line-height: 1rem
+}
+
+.page-section.homepage-header .fullscreen-section .secondary-text h2 .text strong {
+    display: block;
+    font-weight: 700
+}
+
+@media (min-width: 47.5em) {
+    .page-section.homepage-header .fullscreen-section .secondary-text h2 .text {
+        font-size: 20px;
+        font-size: 1.25rem;
+        line-height: 22px;
+        line-height: 1.375rem;
+        margin: 0
+    }
+}
+
+@media (min-width: 60em) and (min-aspect-ratio: 5 / 4) and (max-aspect-ratio: 20 / 9) {
+    body.fullscreen .page-section.homepage-header .fullscreen-section .secondary-text h2 .text {
+        font-size: 1.25vw;
+        line-height: 1.375vw
+    }
+}
+
+.page-section.homepage-header .bg-particles {
+    z-index: 4
+}
+
+body.dragable .homepage-header {
+    width: 100vw;
+    height: 100vh;
+    padding: 0
+}
+
+body.dragable .homepage-header .fullscreen-section .secondary-text {
+    top: 53vh
+}
+
+@media (min-width: 60em) {
+    body.dragable .homepage-header .fullscreen-section .secondary-text {
+        top: 58vh
+    }
+}
+
+body.fpsLimited .page-section.homepage-header .fullscreen-section .secondary-text h1 {
+    top: auto;
+    right: auto;
+    bottom: 100%;
+    left: 50%;
+    position: absolute;
+    -moz-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    display: block;
+    color: #fff;
+    letter-spacing: 0.25rem;
+    font-size: 46px;
+    font-size: 2.875rem;
+    line-height: 58px;
+    line-height: 3.625rem
+}
+
+@media (min-width: 47.5em) {
+    body.fpsLimited .page-section.homepage-header .fullscreen-section .secondary-text h1 {
+        letter-spacing: 0.5rem;
+        font-size: 116px;
+        font-size: 7.25rem;
+        line-height: 124px;
+        line-height: 7.75rem
+    }
+}
+
+@media (min-width: 60em) {
+    body.fpsLimited .page-section.homepage-header .fullscreen-section .secondary-text h1 {
+        font-size: 120px;
+        font-size: 7.5rem;
+        line-height: 140px;
+        line-height: 8.75rem
+    }
+}
+
+@media (min-width: 60em) and (min-aspect-ratio: 5 / 4) and (max-aspect-ratio: 20 / 9) {
+    body.fpsLimited .page-section.homepage-header .fullscreen-section .secondary-text h1 {
+        font-size: 11.25vw;
+        line-height: 11.875vw;
+        letter-spacing: 0.3vw
+    }
+}
+
+@media (min-width: 100em) {
+    body.fpsLimited .page-section.homepage-header .fullscreen-section .secondary-text h1 {
+        font-size: 11.25vw;
+        line-height: 11.875vw;
+        letter-spacing: 0.3vw
+    }
+}
+
+body.isIE .header-section {
+    display: none;
+    left: 0
+}
+
+body.isIE .header-section.active {
+    display: block
+}
+
+body.isIE .page-section {
+    overflow: hidden !important
+}
+
+body.isIE .navigation-buttons {
+    display: none !important
+}
+
+body.isIE .what-we-do-section.page-section .bg-video video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 107%;
+    height: 100%
+}
+
+body.isIE .what-we-do-section.page-section .bg-video::after {
+    content: '';
+    background: #fff;
+    opacity: 0.88;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    z-index: 2
+}
+
+body.isIE .what-we-do-section.page-section .bg-video svg {
+    display: none
+}
+
+body.isIE .page-section.homepage-header .fullscreen-section .secondary-text {
+    top: 19.25vw
+}
+
+body.isIE .page-section.homepage-header .fullscreen-section .secondary-text h1 {
+    display: block;
+    color: #fff;
+    font-size: 11.25vw;
+    line-height: 11.25vw;
+    letter-spacing: 0.3vw
+}
+
+body.isIE .working-together.page-section .background-image video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 110%;
+    height: 117%
+}
+
+body.isIE .careers-header.page-section .background-image video {
+    position: absolute;
+    top: -5%;
+    left: 0;
+    width: 111%;
+    height: 121%
+}
+
+body.isIE .untilising-wso2.page-section .inner-content .text-content {
+    top: 13vw
+}
+
+body.isIE .careers-header.page-section .inner-content .shape::before {
+    width: 16.93vw
+}
+
+body.isIE .careers-header.page-section .inner-content h1 {
+    padding-right: 10px
+}
+
+body.isIE .careers-cv.page-section .form-container {
+    padding: 120px 80px 100px;
+    padding: 7.5rem 5rem 6.25rem
+}
+
+body.isIE .careers-options.page-section .inner-content {
+    padding-top: 1080px
+}
+
+body.isIE .careers-info-holder-inner .header-text, body.isIE .careers-info-holder-inner .main-text {
+    -webkit-flex: 0 0 auto;
+    -moz-flex: 0 0 auto;
+    -ms-flex: 0 0 auto;
+    -o-flex: 0 0 auto;
+    flex: 0 0 auto
+}
+
+body.isIE .careers-info-holder-inner .header-text p, body.isIE .careers-info-holder-inner .main-text p {
+    width: 100%;
+    -webkit-flex: 0 0 auto;
+    -moz-flex: 0 0 auto;
+    -ms-flex: 0 0 auto;
+    -o-flex: 0 0 auto;
+    flex: 0 0 auto
+}
+
+body.isIE .why-chakray-header.page-section .inner-content {
+    padding-top: 180px
+}
+
+body.isIE .about-profiles.page-section .profile.profile-3 .main-information, body.isIE .about-profiles.page-section .profile.profile-4 .main-information {
+    width: 50%
+}
+
+body.isIE .map-section.page-section {
+    padding: 25%
+}
+
+body.isIE .contact-header.page-section, body.isIE .services-header.page-section {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flexbox;
+    display: flex
+}
+
+body.isIE .services-header.page-section::after {
+    background: url("../images/jpeg/services-header-bg.jpg") no-repeat left bottom
+}
+
+body.isIE .services-header.page-section::before {
+    background: url("../images/jpeg/services-header-bg.jpg") no-repeat left bottom
+}
+
+html[data-useragent*="MSIE 10.0"] body.isIE .splashscreen {
+    display: none
+}
+
+html[data-useragent*="MSIE 10.0"] body.isIE .splashscreen.shown {
+    display: block
+}
+
+html[data-useragent*="MSIE 10.0"] body.isIE .page-section.about-profiles .profile .close {
+    z-index: 0
+}
+
+html[data-useragent*="MSIE 10.0"] body.isIE .page-section.about-profiles .profile.shown .close {
+    z-index: 700
+}
+
+html[data-useragent*="MSIE 10.0"] body.isIE .page-section.about-profiles .profile .title, html[data-useragent*="MSIE 10.0"] body.isIE .page-section.about-profiles .profile .text {
+    display: block
+}
+
+html[data-useragent*="MSIE 10.0"] body.isIE .page-section.careers-options .career-column .hover-info {
+    width: 100%
+}
+
+html[data-useragent*="MSIE 10.0"] body.isIE .page-section.careers-options .career-column .hover-info h2 {
+    width: 100%;
+    display: block
+}
+
+html[data-useragent*="MSIE 10.0"] body.isIE .careers-info-holder-inner {
+    display: none
+}
+
+html[data-useragent*="MSIE 10.0"] body.isIE .careers-info-holder-inner.shown {
+    display: block
+}
+
+html[data-useragent*="MSIE 9.0"] body.isIE .splashscreen {
+    display: none
+}
+
+html[data-useragent*="MSIE 9.0"] body.isIE .splashscreen.shown {
+    display: block
+}
+
+html[data-useragent*="MSIE 9.0"] body.isIE .button::before {
+    display: none
+}
+
+html[data-useragent*="MSIE 9.0"] body.isIE .page-section.trusted .logos {
+    overflow: hidden
+}
+
+html[data-useragent*="MSIE 9.0"] body.isIE .page-section.trusted .logos .logo {
+    float: left;
+    width: 25%;
+    margin: 0;
+    border: 2px solid #fff
+}
+
+html[data-useragent*="MSIE 9.0"] body.isIE .trusted.page-section .text-content {
+    padding-top: 160px;
+    z-index: 100
+}
+
+html[data-useragent*="MSIE 9.0"] body.isIE .wso2-4.page-section .inner-content {
+    overflow: hidden;
+    padding-bottom: 240px
+}
+
+html[data-useragent*="MSIE 9.0"] body.isIE .wso2-4.page-section .inner-content .right-content {
+    margin-top: 140px;
+    float: right
+}
+
+html[data-useragent*="MSIE 9.0"] body.isIE .wso2-4.page-section .inner-content .left-content {
+    float: left
+}
+
+html[data-useragent*="MSIE 9.0"] body.isIE .untilising-wso2.page-section .icons-container {
+    overflow: hidden
+}
+
+html[data-useragent*="MSIE 9.0"] body.isIE .untilising-wso2.page-section .icons-container .icon {
+    float: left
+}
+
+body.isIE .about-header.page-section .background-image.has-video::after {
+    opacity: 0.9
+}
+
+body.isIE .about-header.page-section .background-image.has-video video {
+    position: absolute;
+    top: -5%;
+    left: 0;
+    width: 111%;
+    height: 121%
+}
+
+
+/*# sourceMappingURL=styles.css.map */
